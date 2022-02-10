@@ -2,6 +2,6 @@ module Wright
 
 export wright
 
-include("compute.jl")
+include("main.jl")
 
 end
