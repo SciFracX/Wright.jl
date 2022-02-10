@@ -11,5 +11,5 @@ using Test
     @test isapprox(wright(-1/2, 1/2, -1/2), 0.53001)
     @test isapprox(wright(-1/3, 2/3, -5/2), 0.10772)
     @test isapprox(wright(-1/3, 2/3, -1/2), 0.55633)
-    @test isapprox(wright(1, 2, -2500), -0.002-0.002im)
+    @test isapprox(wright(1, 2, -2500), -0.002)
 end
